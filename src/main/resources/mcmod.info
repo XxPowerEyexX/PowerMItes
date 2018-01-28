@@ -1,0 +1,16 @@
+[
+{
+  "modid": "pm",
+  "name": "PowerMits",
+  "description": "How Powerful can you become?",
+  "version": "${0.1}",
+  "mcversion": "${1.12}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["XxPowerEyexX"],
+  "credits": "The Forge and FML guys, and of course Lady Power",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]

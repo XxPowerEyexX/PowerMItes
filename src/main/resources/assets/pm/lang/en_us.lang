@@ -1,0 +1,11 @@
+//Creative Tab
+itemGroup.pm=PowerMites
+
+//Items
+item.power_gem.name=Power Gem
+item.power_ingot.name=Power Ingot
+
+//Blocks
+tile.power_block.name=Power Block
+tile.power_ore.name=Power Ore
+tile.power_gem_block.name=Gem Block
