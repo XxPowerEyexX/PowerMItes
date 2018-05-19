@@ -1,5 +1,7 @@
 package com.xxpowereyexx.powermites.blocks;
 
+import java.util.Random;
+
 import com.xxpowereyexx.powermites.Main;
 import com.xxpowereyexx.powermites.init.ModBlocks;
 import com.xxpowereyexx.powermites.init.ModItems;
@@ -30,4 +32,6 @@ public class BlockBase extends Block implements IHasModel
 		Main.proxy.registerItemRenderer(Item.getItemFromBlock(this), 0, "invnetory");
 		
 	}
+
+	
 }

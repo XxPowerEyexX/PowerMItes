@@ -21,7 +21,7 @@ compileJava {
 }
 
 minecraft {
-    version = "1.12.2-14.23.1.2555"
+    version = "1.12.2-14.23.3.2655"
     runDir = "run"
     
     // the mappings can be changed at any time, and must be in the following format.
@@ -33,7 +33,23 @@ minecraft {
     // makeObfSourceJar = false // an Srg named sources jar is made by default. uncomment this to disable.
 }
 
+repositories{
+ maven{
+ name = "Progwml6 maven" 
+ url = "http://dvs1.progwml6.com/files/maven" 
+ }
+ maven {
+ name = "ModMaven"
+ url = "modmaven.k-4u.nl"
+ }
+}
+
+ 
+
 dependencies {
+deobfProvided "mezz.jei:jei_${mc_version}:${jei_version}:api" 
+ runtime "mezz.jei:jei_${mc_version}:${jei_version}"
+
     // you may put jars on which you depend on in ./libs
     // or you may define them like so..
     //compile "some.group:artifact:version:classifier"
@@ -54,6 +70,8 @@ dependencies {
     // for more info...
     // http://www.gradle.org/docs/current/userguide/artifact_dependencies_tutorial.html
     // http://www.gradle.org/docs/current/userguide/dependency_management.html
+	
+	
 
 }
 

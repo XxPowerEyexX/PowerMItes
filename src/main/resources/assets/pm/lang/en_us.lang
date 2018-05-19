@@ -4,8 +4,16 @@ itemGroup.pm=PowerMites
 //Items
 item.power_gem.name=Power Gem
 item.power_ingot.name=Power Ingot
+item.power_dust.name=Power Dust
 
 //Blocks
 tile.power_block.name=Power Block
 tile.power_ore.name=Power Ore
 tile.power_gem_block.name=Gem Block
+
+//Tools
+item.power_axe.name=Power Axe
+item.power_pickaxe.name=Power Pick
+item.power_sword.name=Power Sword
+item.power_shovel.name=Power Shovel
+item.power_hoe.name=Power Hoe 

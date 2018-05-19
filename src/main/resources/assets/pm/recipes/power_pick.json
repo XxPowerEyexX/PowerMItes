@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        "EDE",
+        "EDE"
+    ],
+    "key": {
+        "#": {
+            "item": "pm:power_ingot"
+        },
+        "E": {
+            "item": "minecraft:emerald_block"
+        },
+        "D": {
+            "item": "minecraft:diamond_block"
+        }
+    },
+    "result": {
+        "item": "pm:power_pickaxe",
+        "count": 1
+    }
+}

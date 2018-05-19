@@ -1,5 +1,6 @@
 package com.xxpowereyexx.powermites;
 
+import com.xxpowereyexx.powermites.init.ModRecipes;
 import com.xxpowereyexx.powermites.proxy.CommonProxy;
 import com.xxpowereyexx.powermites.util.Refs;
 import net.minecraftforge.fml.common.Mod;
@@ -31,7 +32,7 @@ public class Main
 	@EventHandler
 	public static void init(FMLInitializationEvent event)
 	{
-		
+		ModRecipes.init();
 	}
 	
 	@EventHandler

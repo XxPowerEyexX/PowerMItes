@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "SS ",
+        "D/D",
+        "#/#"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:emerald_block"
+        },
+        "S": {
+            "item": "pm:power_ingot"
+        },
+        "D": {
+            "item": "minecraft:diamond_block"
+        },
+        "/": {
+            "item": "minecraft:stick"
+        }
+    },
+    "result": {
+        "item": "pm:power_hoe",
+        "count": 1
+    }
+}
