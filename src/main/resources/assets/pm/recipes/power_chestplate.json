@@ -1,0 +1,23 @@
+{
+
+"type": "minecraft:crafting_shaped",
+
+  
+    "pattern": [
+        "#E#",
+        "#S#",
+        "###"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:diamond_block"
+        },
+        "E": {
+            "item": "minecraft:emerald_block"
+        },
+        "S": {
+            "item": "pm:power_block"
+        }
+    },
+    "result": {"item":"pm:power_chestplate"}
+}

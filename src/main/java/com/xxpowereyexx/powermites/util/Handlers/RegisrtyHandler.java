@@ -2,6 +2,7 @@ package com.xxpowereyexx.powermites.util.Handlers;
 
 import com.xxpowereyexx.powermites.init.ModBlocks;
 import com.xxpowereyexx.powermites.init.ModItems;
+import com.xxpowereyexx.powermites.oregen.Oregen;
 import com.xxpowereyexx.powermites.util.IHasModel;
 
 import net.minecraft.block.Block;
@@ -10,6 +11,7 @@ import net.minecraftforge.client.event.ModelRegistryEvent;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.fml.common.Mod.EventBusSubscriber;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
+import net.minecraftforge.fml.common.registry.GameRegistry;
 
 @EventBusSubscriber
 public class RegisrtyHandler
@@ -49,5 +51,11 @@ public class RegisrtyHandler
 		
 		
 	}
+	
+	public static void otherRegistries()
+	{
+		GameRegistry.registerWorldGenerator(new Oregen(), 0);
+	}
+	
 	
 }

@@ -1,0 +1,19 @@
+{
+   "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "SES",
+        "S#S"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:diamond_block"
+        },
+        "E": {
+            "item": "minecraft:emerald_block"
+        },
+        "S": {
+            "item": "pm:power_block"
+        }
+    },
+    "result": {"item":"pm:power_boots"}
+}

@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        "DSD",
+        "DSD"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:emerald_block"
+        },
+        "D": {
+            "item": "minecraft:diamond_block"
+        },
+        "S": {
+            "item": "pm:power_block"
+        }
+    },
+    "result": {"item":"pm:power_leggings"}
+}

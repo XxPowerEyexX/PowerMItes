@@ -10,6 +10,7 @@ item.power_dust.name=Power Dust
 tile.power_block.name=Power Block
 tile.power_ore.name=Power Ore
 tile.power_gem_block.name=Gem Block
+tile.power_ore_end.name=Power End Ore
 
 //Tools
 item.power_axe.name=Power Axe
@@ -17,3 +18,9 @@ item.power_pickaxe.name=Power Pick
 item.power_sword.name=Power Sword
 item.power_shovel.name=Power Shovel
 item.power_hoe.name=Power Hoe 
+
+//armor
+item.power_helmet.name=Power Helm
+item.power_chestplate.name=Power Chestplate
+item.power_leggings.name=Power Leggings
+item.power_boots.name=Power Boots

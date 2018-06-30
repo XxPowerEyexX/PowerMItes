@@ -16,10 +16,10 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
 
-public class PowerOre extends BlockBase
+public class PowerOreEnd extends BlockBase
 {
 
-	public PowerOre(String name, Material material)
+	public PowerOreEnd(String name, Material material)
 	{
 		super(name, material);
 		setSoundType(SoundType.METAL);
@@ -51,7 +51,7 @@ public class PowerOre extends BlockBase
 	public int quantityDropped(IBlockState state, int fortune, Random rand)
 	{
 			//return quantityDroppedWithBonus(fortune, rand);
-		return fortune+1;
+		return fortune+2;
 	}
 	
 	

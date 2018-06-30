@@ -7,6 +7,7 @@ import java.util.List;
 import com.xxpowereyexx.powermites.blocks.BlockBase;
 import com.xxpowereyexx.powermites.blocks.Blocks;
 import com.xxpowereyexx.powermites.blocks.PowerOre;
+import com.xxpowereyexx.powermites.blocks.PowerOreEnd;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
@@ -18,7 +19,9 @@ public class ModBlocks
 	
 	public static final Block POWER_BLOCK= new Blocks("power_block", Material.ANVIL);
 	public static final Block POWER_ORE= new PowerOre("power_ore", Material.IRON);
+	public static final Block POWER_ORE_END= new PowerOreEnd("power_ore_end", Material.IRON);
 	public static final Block POWER_GEM_BLOCK = new Blocks("power_gem_block", Material.GROUND);
+	
 	
 	
 	
